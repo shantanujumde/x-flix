@@ -1,0 +1,43 @@
+.video-card {
+  background-color: rgba(24, 24, 24, 1);
+  border: none;
+  box-shadow: none;
+}
+.video-details{
+    position: relative;
+    color: white;
+    text-align: left;
+}
+.video-details-title {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 10%;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    align-self: center;
+    flex-grow: 0;
+    margin: 5px 0px;
+}
+.video-details-time {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 60%;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    
+    /* Gray/gray-300 */
+    
+    color: #D1D5DA;
+}

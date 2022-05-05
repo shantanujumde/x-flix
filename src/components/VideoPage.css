@@ -1,0 +1,40 @@
+.container {
+  display: block;
+  /* position: relative; */
+  overflow: hidden;
+  /* width: 100%; */
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  display: block;
+  /* position: absolute; */
+  border-radius: 15px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 65vh;
+  float: left;
+  /* margin-bottom: 1000vh */
+}
+
+.video-title{
+  
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #FFFFFF;
+}/* 
+.video-count{
+    position: absolute;
+    top: calc(110%);    
+    color: #D1D5DA;
+} */
+
