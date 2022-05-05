@@ -1,4 +1,4 @@
-#### X-FLIX
+### X-FLIX
 ## npm start
 ### Used Methods and Technologies
 ## Debouncing
